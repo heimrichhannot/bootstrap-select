@@ -1,0 +1,27 @@
+{
+    "name": "heimrichhannot/bootstrap-select",
+    "description": "Bootstrap-select is a jQuery plugin that utilizes Bootstrap's dropdown.js to style and bring additional functionality to standard select elements.",
+    "type": "contao-component",
+    "keywords": [
+        "form",
+        "bootstrap",
+        "select",
+        "replacement"
+    ],
+    "homepage": "http://silviomoreto.github.io/bootstrap-select",
+    "version": "1.12.3",
+    "authors": [
+        {
+            "name": "Silvio Moreto",
+            "homepage": "https://github.com/silviomoreto"
+        }
+    ],
+    "require": {
+        "contao-components/installer": "^1.0.9"
+    },
+    "license": "MIT",
+    "suggest": {
+        "components/jquery": ">=1.8",
+        "heimrichhannot/bootstrap": "4.0.0-alpha"
+    }
+}
