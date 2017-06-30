@@ -856,7 +856,7 @@
 
                 text.className = 'text';
                 newElement.className = this.$menu[0].parentNode.className + ' show open'; // bootstrap 4 requires show instead of open
-                menu.className = 'dropdown-menu open';
+                menu.className = 'dropdown-menu open show';
                 menuInner.className = 'dropdown-menu inner';
                 divider.className = 'divider';
                 a.className = 'dropdown-item-inner';
@@ -882,6 +882,8 @@
 
                 document.body.appendChild(newElement);
 
+                console.log(a.offsetHeight);
+                
                 var liHeight = a.offsetHeight,
                     headerHeight = header ? header.offsetHeight : 0,
                     searchHeight = search ? search.offsetHeight : 0,

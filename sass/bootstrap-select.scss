@@ -33,6 +33,12 @@ select.selectpicker {
     width: 220px \0
 ; /*IE9 and below*/
 
+    &.btn-group {
+        > .dropdown-toggle {
+            height: 100%;
+        }
+    }
+
     // The selectpicker button
     > .dropdown-toggle {
         width: 100%;
