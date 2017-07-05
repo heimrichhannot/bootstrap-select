@@ -882,8 +882,6 @@
 
                 document.body.appendChild(newElement);
 
-                console.log(a.offsetHeight);
-                
                 var liHeight = a.offsetHeight,
                     headerHeight = header ? header.offsetHeight : 0,
                     searchHeight = search ? search.offsetHeight : 0,
