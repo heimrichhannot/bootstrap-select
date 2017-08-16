@@ -1,5 +1,5 @@
 /*!
- * Bootstrap-select v1.12.4 (http://silviomoreto.github.io/bootstrap-select)
+ * Bootstrap-select v1.12.5 (http://silviomoreto.github.io/bootstrap-select)
  *
  * Copyright 2013-2017 bootstrap-select
  * Licensed under MIT (https://github.com/silviomoreto/bootstrap-select/blob/master/LICENSE)
@@ -347,7 +347,7 @@
             doneButtonText: 'Close',
             multipleSeparator: ', ',
             styleBase: 'btn',
-            style: 'btn-default  btn-secondary', // bootstrap4: btn-default replaced by btn-secondary
+            style: 'btn-default btn-light', // bootstrap4: btn-default replaced by btn-light
             size: 'auto',
             title: null,
             selectedTextFormat: 'values',
@@ -488,10 +488,10 @@
                 var actionsbox = this.multiple && this.options.actionsBox ?
                     '<div class="bs-actionsbox">' +
                     '<div class="btn-group btn-group-sm btn-block">' +
-                    '<button type="button" class="actions-btn bs-select-all btn btn-default btn-secondary">' +
+                    '<button type="button" class="actions-btn bs-select-all btn btn-default btn-light">' +
                     this.options.selectAllText +
                     '</button>' +
-                    '<button type="button" class="actions-btn bs-deselect-all btn btn-default btn-secondary">' +
+                    '<button type="button" class="actions-btn bs-deselect-all btn btn-default btn-light">' +
                     this.options.deselectAllText +
                     '</button>' +
                     '</div>' +
@@ -500,7 +500,7 @@
                 var donebutton = this.multiple && this.options.doneButton ?
                     '<div class="bs-donebutton">' +
                     '<div class="btn-group btn-block">' +
-                    '<button type="button" class="btn btn-sm btn-default btn-secondary">' +
+                    '<button type="button" class="btn btn-sm btn-default btn-light">' +
                     this.options.doneButtonText +
                     '</button>' +
                     '</div>' +

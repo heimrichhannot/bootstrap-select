@@ -1,3 +1,18 @@
+### v1.12.5 (2017-01-30)
+
+## Added
+* Bootstrap 4 beta compatibility
+
+### v1.12.4 (2017-01-30)
+
+## Bug Fixes
+* Bootstrap 4 alpha compatibility
+
+### v1.12.3 (2017-01-30)
+
+## Added
+* Bootstrap 4 alpha compatibility
+
 ### v1.12.2 (2017-01-30)
 
 ## Bug Fixes
