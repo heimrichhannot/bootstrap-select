@@ -1,5 +1,5 @@
 /*!
- * Bootstrap-select v1.12.5 (http://silviomoreto.github.io/bootstrap-select)
+ * Bootstrap-select v1.12.8 (http://silviomoreto.github.io/bootstrap-select)
  *
  * Copyright 2013-2017 bootstrap-select
  * Licensed under MIT (https://github.com/silviomoreto/bootstrap-select/blob/master/LICENSE)
@@ -1262,8 +1262,8 @@
                     }
                 });
 
-                this.$menuInner.on('click', 'a span.dropdown-item-inner', function (e) {
-                    var $this = $(this),
+                this.$menuInner.on('click', 'a', function (e) {
+                    var $this = $(this).find('span.dropdown-item-inner'),
                         clickedIndex = $this.parent().data('originalIndex'),
                         prevValue = that.$element.val(),
                         prevIndex = that.$element.prop('selectedIndex'),
@@ -1627,12 +1627,12 @@
                     };
 
 
-                isActive = that.$newElement.hasClass('open');
+                isActive = that.$newElement.hasClass('open') || that.$newElement.hasClass('show');
 
                 if (!isActive && (e.keyCode >= 48 && e.keyCode <= 57 || e.keyCode >= 96 && e.keyCode <= 105 || e.keyCode >= 65 && e.keyCode <= 90)) {
                     if (!that.options.container) {
                         that.setSize();
-                        that.$menu.parent().addClass('open');
+                        that.$menu.parent().addClass('open show');
                         isActive = true;
                     } else {
                         that.$button.trigger('click');
@@ -1724,7 +1724,7 @@
                         // Fixes spacebar selection of dropdown items in FF & IE
                         $(document).data('spaceSelect', true);
                     } else if (!/(32)/.test(e.keyCode.toString(10))) {
-                        that.$menuInner.find('.active a').click();
+                        that.$menuInner.find('a.active').click();
                         $this.focus();
                     }
                     $(document).data('keycount', 0);

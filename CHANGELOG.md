@@ -1,3 +1,9 @@
+### v1.12.8 (2017-10-30)
+
+## Fixed
+* click area does now belong to anchor instead of nested span (better click behavior)
+* keyboard support
+
 ### v1.12.5 (2017-01-30)
 
 ## Added

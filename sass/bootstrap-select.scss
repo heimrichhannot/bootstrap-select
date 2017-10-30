@@ -215,6 +215,8 @@ select.selectpicker {
 
         a.dropdown-item {
             position: relative;
+            cursor: pointer;
+            user-select: none;
 
             &.active small {
                 color: #fff;
@@ -229,8 +231,6 @@ select.selectpicker {
             }
 
             span.dropdown-item-inner {
-                cursor: pointer;
-                user-select: none;
                 display: block;
 
                 &.opt {
