@@ -1,3 +1,8 @@
+### v1.12.9 (2017-11-01)
+
+## Fixed
+* focus support for `non-livesearch` selects
+
 ### v1.12.8 (2017-10-30)
 
 ## Fixed
