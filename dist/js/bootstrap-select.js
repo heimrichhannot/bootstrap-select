@@ -1,5 +1,5 @@
 /*!
- * Bootstrap-select v1.12.9 (https://github.com/heimrichhannot/bootstrap-select)
+ * Bootstrap-select v1.12.10 (https://github.com/heimrichhannot/bootstrap-select)
  *
  * Copyright 2013-2017 bootstrap-select
  * Licensed under MIT (https://github.com/heimrichhannot/bootstrap-select/LICENSE)
@@ -833,7 +833,12 @@
                     this.$button.addClass(buttonClass);
                 }
             },
-
+            updatePosition: function() {
+                // this fixes https://github.com/heimrichhannot/bootstrap-select/issues/4
+                var event = this.$menu.get(0).ownerDocument.createEvent('HTMLEvents');
+                event.initEvent('resize', true, false);
+                this.$menu.get(0).ownerDocument.dispatchEvent(event);
+            },
             liHeight: function(refresh) {
                 if (!refresh && (this.options.size === false || this.sizeInfo)) return;
 
@@ -1483,6 +1488,8 @@
                             $searchBase.not('.hidden').first().addClass('active');
                             that.$menuInner.scrollTop(0);
                         }
+
+                        that.updatePosition();
                     }
                 });
             },

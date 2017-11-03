@@ -1,3 +1,8 @@
+### v1.12.10 (2017-11-03)
+
+## Fixed
+* wrong dropup position when liveSearch is enabled and list is filtered to new height (#4)
+
 ### v1.12.9 (2017-11-01)
 
 ## Fixed
@@ -193,3 +198,4 @@ Add new translations.
 * Fix [#1235] - issue with selects that had `form-control` class
 
 [#1235]: https://github.com/silviomoreto/bootstrap-select/issues/1235
+
