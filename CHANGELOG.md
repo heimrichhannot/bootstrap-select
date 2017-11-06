@@ -1,3 +1,8 @@
+### v1.12.11 (2017-11-06)
+
+## Fixed
+* opt-group and dividers must be div instead of anchors, and class is now `dropdown-dividers` (#6)
+
 ### v1.12.10 (2017-11-03)
 
 ## Fixed
