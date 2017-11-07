@@ -1,3 +1,11 @@
+### v1.12.12 (2017-11-07)
+
+## Fixed
+* replaced `.divider` with `.dropdown-divider` (#9)
+* replaced `.hidden` with `.d-none` (#9)
+* hide dropdown-headers and dropdown-dividers within livesearch (#9)
+* updated test.html with latest bootstrap4.beta2 dependenciess
+
 ### v1.12.11 (2017-11-06)
 
 ## Fixed
