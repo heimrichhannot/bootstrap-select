@@ -1,3 +1,8 @@
+### v1.12.13 (2017-11-13)
+
+## Fixed
+* `bs-searchbox` input with inside `.input-group`
+
 ### v1.12.12 (2017-11-07)
 
 ## Fixed

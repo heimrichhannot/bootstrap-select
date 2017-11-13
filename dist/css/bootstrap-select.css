@@ -358,3 +358,7 @@ select.selectpicker {
   width: 100%;
   float: none;
 }
+/* line 417, bootstrap-select.scss */
+.input-group .bs-searchbox .form-control {
+  width: 100%;
+}
