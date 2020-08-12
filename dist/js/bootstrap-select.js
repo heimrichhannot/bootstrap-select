@@ -1,5 +1,5 @@
 /*!
- * Bootstrap-select v1.12.13 (https://github.com/heimrichhannot/bootstrap-select)
+ * Bootstrap-select v1.12.15 (https://github.com/heimrichhannot/bootstrap-select)
  *
  * Copyright 2013-2017 bootstrap-select
  * Licensed under MIT (https://github.com/heimrichhannot/bootstrap-select/LICENSE)
@@ -503,7 +503,7 @@
                     : '';
                 var drop =
                     '<div class="btn-group bootstrap-select' + showTick + inputGroup + '">' +
-                    '<button type="button" class="' + this.options.styleBase + ' dropdown-toggle" data-toggle="dropdown"' + autofocus + ' role="button">' +
+                    '<button type="button" class="' + this.options.styleBase + ' dropdown-toggle" data-toggle="dropdown"' + autofocus + '>' +
                     '<span class="filter-option pull-left"></span>&nbsp;' +
                     '<span class="bs-caret">' +
                     this.options.template.caret +

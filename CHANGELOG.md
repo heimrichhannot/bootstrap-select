@@ -1,3 +1,7 @@
+### v1.12.15 (2020-08-12)
+
+* removed `role="button"` from button
+
 ### v1.12.14 (2017-11-13)
 
 ## Fixed
